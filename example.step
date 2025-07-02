@@ -1,0 +1,7 @@
+Schrittnummer,Modus,Führungsgröße,Wert,Abbruchbedingung 1,Abbruch Wert 1,Nächster Schritt 1,Abbruchbedingung 2,Abbruch Wert 2,Nächster Schritt 2
+1,Entladen,Strom,3.0A,Min Spannung,2.7V,2,Ladung,0.2C,2
+2,Laden,Strom,0.0A,Zeit,10.0s,3,keine Bedingung,0.0-,3
+3,Laden,Strom,3.0A,Min Spannung,3.5V,4,Zeit,60.0s,4
+4,Laden,Spannung,3.6V,Min Strom,2.0A,5,Zeit,60.0s,5
+5,Entladen,Leistung,4.0W,Min Spannung,2.7V,6,Zeit,60.0s,6
+6,Entladen,Widerstand,3.0R,Min Spannung,2.7V,0,Zeit,60.0s,0
